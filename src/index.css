@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+section {
+  padding: 20px;
+}
+
+.header {
+  background-color: #f55a5a;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.header--img {
+  max-width: 24px;
+}
+
+.header--title {
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.75px;
+}
+
+.log {
+  display: flex;
+}
+
+.log--info {
+  display: flex;
+  flex-direction: column;
+}
+
+.log--loclogo {
+  max-width: 7px;
+}
+
+.log--location {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
+}
+
+.log--title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.log--date {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.log--description {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
 }
